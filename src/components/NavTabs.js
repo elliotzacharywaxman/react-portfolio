@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
@@ -67,23 +68,26 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 const glow = {
-  backgroundColor: "#fff",
+  backgroundColor: "yellow",
   boxShadow: "0px 20px 20px #0AA"
 }
 const glow2 = {
-  backgroundColor: "#fff",
+  backgroundColor: "blue",
+  color: "white",
   boxShadow: "0px 20px 20px #1BB"
 }
 const glow3 = {
-  backgroundColor: "#fff",
+  backgroundColor: "green",
+  color: "white",
   boxShadow: "0px 20px 20px #2CC"
 }
 const glow4 = {
-  backgroundColor: "#fff",
+  backgroundColor: "orange",
   boxShadow: "0px 20px 20px #3DD"
 }
 const glow5 = {
-  backgroundColor: "#fff",
+  backgroundColor: "purple",
+  color: "white",
   boxShadow: "0px 20px 20px #7EE"
 }
 export default NavTabs;

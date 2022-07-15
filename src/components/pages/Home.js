@@ -6,7 +6,7 @@ const home = {
     color: "purple"
   },
   images: {
-    width: '280px',
+    width: '200px',
     marginTop: '5px',
     marginLeft: "auto",
     marginRight: "auto",
@@ -20,12 +20,15 @@ const home = {
     flexDirection: "row",
     justifyContent: "center"
 
+  },
+  bg: {
+    backgroundColor: "brown"
   }
 }
 
 export default function Home() {
   return (
-    <div>
+    <div style={home.bg}>
       <h1 style={home.header}>Home Page</h1>
       <div style={home.display}>
         <div className="card" style={home.notThicc}>

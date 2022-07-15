@@ -18,15 +18,20 @@ const blog = {
   display: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center"
+    justifyContent: "center",
+    marginTop: "50px",
+    marginBottom: "50px"
+
+  },
+  margin: {
 
   }
 }
 
 export default function Blog() {
   return (
-    <div>
-      <h1 style={blog.header}>Home Page</h1>
+    <div style={blog.margin}>
+      <h1 style={blog.header}>Blog</h1>
       <div style={blog.display}>
         <div className="card" style={blog.notThicc}>
           <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={blog.images} alt="..." />
