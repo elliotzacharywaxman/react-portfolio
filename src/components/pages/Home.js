@@ -6,39 +6,79 @@ const home = {
     color: "purple"
   },
   images: {
-    width: '180px',
-    className: "card-img-top"
+    width: '280px',
+    marginTop: '5px',
+    marginLeft: "auto",
+    marginRight: "auto",
+    class: "card-img-top"
   },
   notThicc: {
-    width: "300px"
+    width: "300px",
+  },
+  display: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center"
+
   }
 }
 
 export default function Home() {
   return (
-
     <div>
       <h1 style={home.header}>Home Page</h1>
-      <div class="card" style={home.notThicc}>
-        <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#contact" class="btn btn-primary">Go somewhere</a>
+      <div style={home.display}>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
+        </div>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
+        </div>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
         </div>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div style={home.display}>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
+        </div>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
+        </div>
+        <div className="card" style={home.notThicc}>
+          <img src="https://images.wagwalkingweb.com/media/care/can-dogs-get-glasses/can-dogs-get-glasses.jpg" style={home.images} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Carbon Calculator</h5>
+            <p className="card-text">Click below to calculate your carbon footprint and offset your emissions.</p>
+            <a href="#contact" className="btn btn-primary">Check It Out</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
